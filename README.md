@@ -13,17 +13,16 @@ This project aims to analyze the sales data from the `Online Retail.csv` dataset
 The data is split into training and test sets based on the date "2011-09-25".
   * All data up to and including this date forms the training set.
   * Data after this date forms the test set.
-
-2. Data Preprocessing
+1. Data Preprocessing
 The following steps are performed:
   * Extracted relevant columns: "Country", "StockCode", "InvoiceDate", and "Quantity".
   * Derived additional features such as "Year", "Month", "Day", "Week", and "DayOfWeek".
-3. Forecasting Model
+1. Forecasting Model
   * A time series forecasting model was built using the training data to predict future quantities sold.
   * The model's performance was evaluated using the MAE metric on the test set.
-4. Evaluation
+1. Evaluation
   * The Mean Absolute Error (MAE) for the forecast on the test set was calculated.
-5. Quantity Prediction
+1. Quantity Prediction
   * Predicted the total quantity of products expected to be sold during Week 39 of 2011.
 
 # Results
