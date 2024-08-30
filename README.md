@@ -11,26 +11,26 @@ This project aims to analyze the sales data from the `Online Retail.csv` dataset
 # Key Steps
 1. Data Splitting
 The data is split into training and test sets based on the date "2011-09-25".
- * All data up to and including this date forms the training set.
- * Data after this date forms the test set.
+  * All data up to and including this date forms the training set.
+  * Data after this date forms the test set.
 
 2. Data Preprocessing
 The following steps are performed:
- * Extracted relevant columns: "Country", "StockCode", "InvoiceDate", and "Quantity".
- * Derived additional features such as "Year", "Month", "Day", "Week", and "DayOfWeek".
+  * Extracted relevant columns: "Country", "StockCode", "InvoiceDate", and "Quantity".
+  * Derived additional features such as "Year", "Month", "Day", "Week", and "DayOfWeek".
 3. Forecasting Model
- * A time series forecasting model was built using the training data to predict future quantities sold.
- * The model's performance was evaluated using the MAE metric on the test set.
+  * A time series forecasting model was built using the training data to predict future quantities sold.
+  * The model's performance was evaluated using the MAE metric on the test set.
 4. Evaluation
- * The Mean Absolute Error (MAE) for the forecast on the test set was calculated.
+  * The Mean Absolute Error (MAE) for the forecast on the test set was calculated.
 5. Quantity Prediction
- * Predicted the total quantity of products expected to be sold during Week 39 of 2011.
+  * Predicted the total quantity of products expected to be sold during Week 39 of 2011.
 
 # Results
 * Mean Absolute Error (MAE): 9.04
 * Quantity sold during Week 39 of 2011: 86,239 units
 
-Requirements
+# Requirements
 The following Python packages are required to run the notebook:
 * pandas
 * pyspark (if using a Spark environment for distributed processing)
