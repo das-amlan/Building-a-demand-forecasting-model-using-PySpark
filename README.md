@@ -2,7 +2,9 @@
 Predict e-commerce product demand using PySpark to answer business questions regarding supply chain efficiency.
 
 # Project Overview
-This project aims to analyze the sales data from the `Online Retail.csv` dataset and build a forecasting model to predict the 'Quantity' of products sold. Utilizing `PySpark`, the project efficiently processes large-scale data, making it scalable for distributed computing environments. The model is evaluated based on the Mean Absolute Error (MAE) on a test set, and specific quantities are predicted for particular weeks in 2011.
+This project aims to analyze the sales data from the `Online Retail.csv` dataset and build a forecasting model to predict the 'Quantity' of products sold. Utilizing `PySpark`, the project efficiently processes large-scale data, making it scalable for distributed computing environments. The model is evaluated based on the Mean Absolute Error (MAE) on a test set, and specific quantities are predicted for particular weeks in 2011. 
+
+Project details: [datacamp](https://app.datacamp.com/learn/projects/2144) 
 
 # Files
 * `notebook.ipynb`: The Jupyter notebook contains all code for data processing, model training, evaluation, and prediction.
